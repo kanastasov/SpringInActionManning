@@ -6,3 +6,5 @@ docker run --name my-cassandra \
 -d cassandra:latest	
 
  docker run -it --network some-network --rm cassandra cqlsh some-cassandra
+ 
+ docker run -p27017:27017 -d mongo:latest
