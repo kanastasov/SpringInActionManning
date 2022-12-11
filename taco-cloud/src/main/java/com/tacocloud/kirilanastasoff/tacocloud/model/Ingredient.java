@@ -1,5 +1,7 @@
 package com.tacocloud.kirilanastasoff.tacocloud.model;
 
+import javax.persistence.Entity;
+
 import org.springframework.data.annotation.Id;
 import org.springframework.data.domain.Persistable;
 import org.springframework.data.relational.core.mapping.Table;
@@ -10,6 +12,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
+@Entity
 @Table
 @AllArgsConstructor
 @NoArgsConstructor(access=AccessLevel.PRIVATE, force=true)
