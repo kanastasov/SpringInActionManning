@@ -41,12 +41,12 @@ public class OrderController {
 		return "order";
 	}
 
-	@PostMapping
-	public String processOrder(@Valid TacoOrder order, Errors errors) {
-		if (errors.hasErrors()) {
-			return "order";
-		}
-		return "redirect:/";
-	}
+//	@PostMapping
+//	public String processOrder(@Valid TacoOrder order, Errors errors) {
+//		if (errors.hasErrors()) {
+//			return "order";
+//		}
+//		return "redirect:/";
+//	}
 
 }
